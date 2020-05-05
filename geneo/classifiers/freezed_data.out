@@ -1,0 +1,201 @@
+2019-09-26 16:47:33,004 - knowledge_transfer - INFO - Working on dataset ./saved_observers/500_ops_20exs cifar10
+2019-09-26 16:47:33,004 - knowledge_transfer - INFO - Observer cifar10_11_cl_9_6.svg
+2019-09-26 16:47:33,005 - knowledge_transfer - INFO - initialize data
+2019-09-26 16:48:46,505 - knowledge_transfer - INFO - Working on dataset ./saved_observers/500_ops_20exs cifar10
+2019-09-26 16:48:46,505 - knowledge_transfer - INFO - Observer cifar10_21_cl_9_6.npy
+2019-09-26 16:48:46,505 - knowledge_transfer - INFO - initialize data
+2019-09-26 16:48:53,818 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 16:48:53,970 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 16:48:54,012 - knowledge_transfer - INFO - from intializer (21, 21, 1, 64)
+2019-09-26 16:49:29,129 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 16:49:29,129 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 16:50:33,389 - knowledge_transfer - INFO - Observer cifar10_7_cl_9_6.npy
+2019-09-26 16:50:33,390 - knowledge_transfer - INFO - initialize data
+2019-09-26 16:50:41,318 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 16:50:41,365 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 16:50:41,388 - knowledge_transfer - INFO - from intializer (7, 7, 1, 64)
+2019-09-26 16:50:55,900 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 16:50:55,900 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 16:52:37,587 - knowledge_transfer - INFO - Observer cifar10_11_cl_9_6.npy
+2019-09-26 16:52:37,587 - knowledge_transfer - INFO - initialize data
+2019-09-26 16:52:45,752 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 16:52:45,803 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 16:52:45,827 - knowledge_transfer - INFO - from intializer (11, 11, 1, 64)
+2019-09-26 16:53:02,647 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 16:53:02,648 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 16:53:52,801 - knowledge_transfer - INFO - Working on dataset ./saved_observers/500_ops_20exs fashion_mnist
+2019-09-26 16:53:52,802 - knowledge_transfer - INFO - Observer fashion_mnist_7_cl_7_0.npy
+2019-09-26 16:53:52,802 - knowledge_transfer - INFO - data already initialised
+2019-09-26 16:53:52,818 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 16:53:52,865 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 16:53:52,888 - knowledge_transfer - INFO - from intializer (7, 7, 1, 64)
+2019-09-26 16:54:08,279 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 16:54:08,280 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 16:54:45,889 - knowledge_transfer - INFO - Observer fashion_mnist_11_cl_7_0.npy
+2019-09-26 16:54:45,889 - knowledge_transfer - INFO - data already initialised
+2019-09-26 16:54:45,908 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 16:54:46,102 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 16:54:46,124 - knowledge_transfer - INFO - from intializer (11, 11, 1, 64)
+2019-09-26 16:55:12,518 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 16:55:12,518 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 16:56:05,854 - knowledge_transfer - INFO - Observer fashion_mnist_21_cl_7_0.npy
+2019-09-26 16:56:05,854 - knowledge_transfer - INFO - data already initialised
+2019-09-26 16:56:05,889 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 16:56:05,939 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 16:56:05,965 - knowledge_transfer - INFO - from intializer (21, 21, 1, 64)
+2019-09-26 16:56:36,715 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 16:56:36,716 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 16:57:15,213 - knowledge_transfer - INFO - Working on dataset ./saved_observers/500_ops_20exs mnist
+2019-09-26 16:57:15,213 - knowledge_transfer - INFO - Observer mnist_7_cl_7_5.npy
+2019-09-26 16:57:15,213 - knowledge_transfer - INFO - data already initialised
+2019-09-26 16:57:15,230 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 16:57:15,280 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 16:57:15,304 - knowledge_transfer - INFO - from intializer (7, 7, 1, 64)
+2019-09-26 16:57:33,560 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 16:57:33,561 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 16:59:32,874 - knowledge_transfer - INFO - Observer mnist_21_cl_7_5.npy
+2019-09-26 16:59:32,874 - knowledge_transfer - INFO - data already initialised
+2019-09-26 16:59:32,911 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 16:59:32,961 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 16:59:32,986 - knowledge_transfer - INFO - from intializer (21, 21, 1, 64)
+2019-09-26 16:59:54,271 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 16:59:54,271 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:00:40,535 - knowledge_transfer - INFO - Observer mnist_11_cl_7_5.npy
+2019-09-26 17:00:40,536 - knowledge_transfer - INFO - data already initialised
+2019-09-26 17:00:40,557 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 17:00:40,607 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:00:40,632 - knowledge_transfer - INFO - from intializer (11, 11, 1, 64)
+2019-09-26 17:01:23,599 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 17:01:23,600 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:01:54,932 - knowledge_transfer - INFO - Working on dataset ./saved_observers/500_ops_40exs cifar10
+2019-09-26 17:01:54,933 - knowledge_transfer - INFO - Observer cifar10_7_cl_4_0.npy
+2019-09-26 17:01:54,933 - knowledge_transfer - INFO - initialize data
+2019-09-26 17:02:02,723 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 17:02:02,772 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:02:02,797 - knowledge_transfer - INFO - from intializer (7, 7, 1, 64)
+2019-09-26 17:02:16,824 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 17:02:16,825 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:02:38,734 - knowledge_transfer - INFO - Observer cifar10_11_cl_4_0.npy
+2019-09-26 17:02:38,734 - knowledge_transfer - INFO - initialize data
+2019-09-26 17:02:46,729 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 17:02:46,779 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:02:46,804 - knowledge_transfer - INFO - from intializer (11, 11, 1, 64)
+2019-09-26 17:03:07,266 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 17:03:07,266 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:03:29,404 - knowledge_transfer - INFO - Observer cifar10_21_cl_4_0.npy
+2019-09-26 17:03:29,405 - knowledge_transfer - INFO - initialize data
+2019-09-26 17:03:37,452 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 17:03:37,505 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:03:37,530 - knowledge_transfer - INFO - from intializer (21, 21, 1, 64)
+2019-09-26 17:03:53,526 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 17:03:53,527 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:04:17,856 - knowledge_transfer - INFO - Working on dataset ./saved_observers/500_ops_40exs fashion_mnist
+2019-09-26 17:04:17,857 - knowledge_transfer - INFO - Observer fashion_mnist_7_cl_6_2.npy
+2019-09-26 17:04:17,857 - knowledge_transfer - INFO - data already initialised
+2019-09-26 17:04:17,873 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 17:04:17,922 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:04:17,946 - knowledge_transfer - INFO - from intializer (7, 7, 1, 64)
+2019-09-26 17:04:32,470 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 17:04:32,470 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:04:55,160 - knowledge_transfer - INFO - Observer fashion_mnist_11_cl_6_2.npy
+2019-09-26 17:04:55,160 - knowledge_transfer - INFO - data already initialised
+2019-09-26 17:04:55,177 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 17:04:55,223 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:04:55,245 - knowledge_transfer - INFO - from intializer (11, 11, 1, 64)
+2019-09-26 17:05:10,210 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 17:05:10,210 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:05:32,690 - knowledge_transfer - INFO - Observer fashion_mnist_21_cl_6_2.npy
+2019-09-26 17:05:32,691 - knowledge_transfer - INFO - data already initialised
+2019-09-26 17:05:32,725 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 17:05:32,775 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:05:32,798 - knowledge_transfer - INFO - from intializer (21, 21, 1, 64)
+2019-09-26 17:05:50,072 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 17:05:50,073 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:06:15,096 - knowledge_transfer - INFO - Working on dataset ./saved_observers/500_ops_40exs mnist
+2019-09-26 17:06:15,097 - knowledge_transfer - INFO - Observer mnist_7_cl_3_8.npy
+2019-09-26 17:06:15,097 - knowledge_transfer - INFO - data already initialised
+2019-09-26 17:06:15,112 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 17:06:15,163 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:06:15,187 - knowledge_transfer - INFO - from intializer (7, 7, 1, 64)
+2019-09-26 17:06:30,016 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 17:06:30,016 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:06:53,169 - knowledge_transfer - INFO - Observer mnist_11_cl_3_8.npy
+2019-09-26 17:06:53,169 - knowledge_transfer - INFO - data already initialised
+2019-09-26 17:06:53,189 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 17:06:53,239 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:06:53,263 - knowledge_transfer - INFO - from intializer (11, 11, 1, 64)
+2019-09-26 17:07:17,691 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 17:07:17,691 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:07:40,788 - knowledge_transfer - INFO - Observer mnist_21_cl_3_8.npy
+2019-09-26 17:07:40,789 - knowledge_transfer - INFO - data already initialised
+2019-09-26 17:07:40,822 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 17:07:40,872 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:07:40,896 - knowledge_transfer - INFO - from intializer (21, 21, 1, 64)
+2019-09-26 17:07:58,744 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 17:07:58,745 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:08:24,540 - knowledge_transfer - INFO - Working on dataset ./saved_observers/750_ops_20exs cifar10
+2019-09-26 17:08:24,540 - knowledge_transfer - INFO - Observer cifar10_21_cl_1_7.npy
+2019-09-26 17:08:24,540 - knowledge_transfer - INFO - initialize data
+2019-09-26 17:08:32,905 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 17:08:32,955 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:08:32,979 - knowledge_transfer - INFO - from intializer (21, 21, 1, 64)
+2019-09-26 17:09:29,203 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 17:09:29,203 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:10:06,325 - knowledge_transfer - INFO - Observer cifar10_7_cl_1_7.npy
+2019-09-26 17:10:06,325 - knowledge_transfer - INFO - initialize data
+2019-09-26 17:10:14,066 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 17:10:14,113 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:10:14,136 - knowledge_transfer - INFO - from intializer (7, 7, 1, 64)
+2019-09-26 17:10:40,034 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 17:10:40,035 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:11:38,035 - knowledge_transfer - INFO - Observer cifar10_11_cl_1_7.npy
+2019-09-26 17:11:38,036 - knowledge_transfer - INFO - initialize data
+2019-09-26 17:11:45,745 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 17:11:45,792 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:11:45,815 - knowledge_transfer - INFO - from intializer (11, 11, 1, 64)
+2019-09-26 17:12:24,213 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 17:12:24,214 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:13:15,029 - knowledge_transfer - INFO - Working on dataset ./saved_observers/750_ops_20exs fashion_mnist
+2019-09-26 17:13:15,029 - knowledge_transfer - INFO - Observer fashion_mnist_11_cl_4_5.npy
+2019-09-26 17:13:15,029 - knowledge_transfer - INFO - data already initialised
+2019-09-26 17:13:15,058 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 17:13:15,109 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:13:15,133 - knowledge_transfer - INFO - from intializer (11, 11, 1, 64)
+2019-09-26 17:14:18,867 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 17:14:18,868 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:14:59,618 - knowledge_transfer - INFO - Observer fashion_mnist_7_cl_4_5.npy
+2019-09-26 17:14:59,618 - knowledge_transfer - INFO - data already initialised
+2019-09-26 17:14:59,641 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 17:14:59,693 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:14:59,718 - knowledge_transfer - INFO - from intializer (7, 7, 1, 64)
+2019-09-26 17:15:36,139 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 17:15:36,139 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:16:25,292 - knowledge_transfer - INFO - Observer fashion_mnist_21_cl_4_5.npy
+2019-09-26 17:16:25,292 - knowledge_transfer - INFO - data already initialised
+2019-09-26 17:16:25,345 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 17:16:25,393 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:16:25,416 - knowledge_transfer - INFO - from intializer (21, 21, 1, 64)
+2019-09-26 17:17:12,973 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 17:17:12,974 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:17:58,897 - knowledge_transfer - INFO - Working on dataset ./saved_observers/750_ops_20exs mnist
+2019-09-26 17:17:58,897 - knowledge_transfer - INFO - Observer mnist_7_cl_5_7.npy
+2019-09-26 17:17:58,897 - knowledge_transfer - INFO - data already initialised
+2019-09-26 17:17:58,920 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 17:17:58,970 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:17:58,994 - knowledge_transfer - INFO - from intializer (7, 7, 1, 64)
+2019-09-26 17:18:44,363 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 17:18:44,364 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:20:15,475 - knowledge_transfer - INFO - Observer mnist_21_cl_5_7.npy
+2019-09-26 17:20:15,475 - knowledge_transfer - INFO - data already initialised
+2019-09-26 17:20:15,528 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 17:20:15,579 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:20:15,604 - knowledge_transfer - INFO - from intializer (21, 21, 1, 64)
+2019-09-26 17:20:37,255 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 17:20:37,255 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:21:31,601 - knowledge_transfer - INFO - Observer mnist_11_cl_5_7.npy
+2019-09-26 17:21:31,601 - knowledge_transfer - INFO - data already initialised
+2019-09-26 17:21:31,628 - knowledge_transfer - INFO - test with geneo init
+2019-09-26 17:21:31,673 - knowledge_transfer - INFO - input_shape (128, 128, 1)
+2019-09-26 17:21:31,694 - knowledge_transfer - INFO - from intializer (11, 11, 1, 64)
+2019-09-26 17:22:18,715 - knowledge_transfer - INFO - glorot uniform initialization
+2019-09-26 17:22:18,715 - knowledge_transfer - INFO - input_shape (128, 128, 1)

@@ -1,0 +1,23 @@
+Metadata-Version: 1.2
+Name: geneo
+Version: 0.0.0-prealpha
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: 
+Author-email: 
+License: GNU General Public License v3 or later (GPLv3+)
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/EngineeringTopic :: Scientific/Engineering :: Machine Learning
+Classifier: Topic :: Scientific/Engineering :: Data Analysis
+Classifier: Topic :: Scientific/Engineering :: Topology
+Requires-Python: >=3.5

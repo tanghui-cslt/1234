@@ -1,0 +1,241 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AVAILABLE_DATASETS	geneo/constants.py	/^AVAILABLE_DATASETS = ['mnist', 'fashion_mnist', 'cifar10', 'cifar100']$/;"	v
+Brute	geneo/classifiers/brute.py	/^class Brute:$/;"	c
+CNN_DICT	geneo/constants.py	/^CNN_DICT = {'architecture':'cnn','num_units':[16, 64, 100],$/;"	v
+CURRENT_PYTHON	setup.py	/^CURRENT_PYTHON = sys.version_info[:2]$/;"	v
+DataSet	geneo/read_data.py	/^class DataSet:$/;"	c
+EXCLUDE_FROM_PACKAGES	setup.py	/^EXCLUDE_FROM_PACKAGES = []$/;"	v
+FC_DICT	geneo/constants.py	/^FC_DICT = {'architecture':'fc', 'num_layers':2, 'num_units':[64, 100],$/;"	v
+IENEO	geneo/gaussian_ieneo.py	/^class IENEO:$/;"	c
+Observer	geneo/observer.py	/^class Observer:$/;"	c
+PERSISTENCE_PARAMS	geneo/constants.py	/^PERSISTENCE_PARAMS = {'reverse' :False, 'field' :2, 'method':'clearing',$/;"	v
+PREPROC_PARAMS	geneo/constants.py	/^PREPROC_PARAMS = {'bw':False, 'threshold':.66,$/;"	v
+REQUIRED_PYTHON	setup.py	/^REQUIRED_PYTHON = (3, 5)$/;"	v
+ROTATION_PARAMS	geneo/constants.py	/^ROTATION_PARAMS = {'range_theta':[15, 45]}$/;"	v
+TRAIN_PARAMS	geneo/constants.py	/^TRAIN_PARAMS = {'loss':keras.losses.categorical_crossentropy,$/;"	v
+TRANSLATION_PARAMS	geneo/constants.py	/^TRANSLATION_PARAMS = {'rangex':[0, 2], 'rangey':[0, 2]}$/;"	v
+__init__	geneo/classifiers/brute.py	/^    def __init__(self, observer, data):$/;"	m	class:Brute
+__init__	geneo/gaussian_ieneo.py	/^    def __init__(self, size, sigma=None, centers=None, signal_dim=None):$/;"	m	class:IENEO
+__init__	geneo/observer.py	/^    def __init__(self, geneos, observed_signal_dimension=2,$/;"	m	class:Observer
+__init__	geneo/read_data.py	/^    def __init__(self, name = None, label_mode = 'fine',$/;"	m	class:DataSet
+__repr__	geneo/gaussian_ieneo.py	/^    def __repr__(self):$/;"	m	class:IENEO	file:
+__repr__	geneo/read_data.py	/^    def __repr__(self):$/;"	m	class:DataSet	file:
+assign_interclass_sampling_score	geneo/observer.py	/^    def assign_interclass_sampling_score(self, distances, indices):$/;"	m	class:Observer
+aug_test	geneo/examples/evaluate_on_augmented_data.py	/^                    aug_test = augment(test)$/;"	v
+augment	geneo/data_augmentation/data_augmentation.py	/^def augment(images):$/;"	f
+augment	geneo/read_data.py	/^    def augment(self, substitute = True):$/;"	m	class:DataSet
+augment_image	geneo/data_augmentation/data_augmentation.py	/^def augment_image(image, functions = None, parameters = None, probability = 10):$/;"	f
+augment_n_times	geneo/data_augmentation/data_augmentation.py	/^def augment_n_times(function, inputs_dict, n):$/;"	f
+author	setup.py	/^    author='',$/;"	v
+author_email	setup.py	/^    author_email='',$/;"	v
+batch_size	geneo/classifiers/knowledge_transfer.py	/^                                  batch_size=train_params['batch_size'],$/;"	v
+bin_coeff	geneo/utils.py	/^def bin_coeff(n,k):$/;"	f
+build_cnn	geneo/classifiers/utils.py	/^def build_cnn(input_shape, num_classes, cnn_dict = {}, fc_dict = {}):$/;"	f
+build_fc	geneo/classifiers/utils.py	/^def build_fc(input_shape=(784,), num_classes=2, architecture = None,$/;"	f
+build_net	geneo/classifiers/knowledge_transfer.py	/^def build_net(arch = None, params = None, input_shape = None,$/;"	f
+callbacks	geneo/classifiers/knowledge_transfer.py	/^                                  callbacks=train_params['callbacks'],$/;"	v
+centers	geneo/examples/representation.py	/^                                           centers = int(size\/2)+1)$/;"	v
+centers	geneo/examples/selection_and_sampling.py	/^                          centers = 5)$/;"	v
+centers	geneo/gaussian_ieneo.py	/^    def centers(self):$/;"	m	class:IENEO
+centers	geneo/gaussian_ieneo.py	/^    def centers(self, new_centers):$/;"	m	class:IENEO
+class_num	geneo/classifiers/knowledge_transfer.py	/^                class_num = [int(class_num[0]), int(class_num[1][0])]$/;"	v
+class_num	geneo/classifiers/knowledge_transfer.py	/^                class_num = observer_path.split("_")[-2:]$/;"	v
+class_num	geneo/examples/evaluate_on_augmented_data.py	/^                    class_num = [int(class_num[0]), int(class_num[1][0])]$/;"	v
+class_num	geneo/examples/evaluate_on_augmented_data.py	/^                    class_num = observer_path.split("_")[-2:]$/;"	v
+classifiers	setup.py	/^    classifiers=[$/;"	v
+cnn_init	geneo/constants.py	/^cnn_init = keras.initializers.glorot_normal()$/;"	v
+cnn_inits	geneo/classifiers/knowledge_transfer.py	/^                cnn_inits = partial(geneo_init,$/;"	v
+cnn_params	geneo/classifiers/knowledge_transfer.py	/^                cnn_params = {'architecture': 'cnn',$/;"	v
+coeffs_normalization	geneo/gaussian_ieneo.py	/^    def coeffs_normalization(self, regularize = True):$/;"	m	class:IENEO
+coeffs_normalization_	geneo/gaussian_ieneo.py	/^    def coeffs_normalization_(coeff, center):$/;"	m	class:IENEO
+compile	geneo/classifiers/knowledge_transfer.py	/^def compile(net, train_parameters = None):$/;"	f
+compute_ops_dist	geneo/observer.py	/^    def compute_ops_dist(op_pair, signals, persistence_params, convolve_params,$/;"	m	class:Observer
+convolve	geneo/gaussian_ieneo.py	/^    def convolve(self, image, params = None):$/;"	m	class:IENEO
+convolve_and_get_persistence	geneo/gaussian_ieneo.py	/^    def convolve_and_get_persistence(self, image, convolve = True,$/;"	m	class:IENEO
+d	geneo/classifiers/get_knowledge_transfer_table.py	/^d = d.sort_values(by=['dataset'], ascending=False)$/;"	v
+d	geneo/classifiers/get_knowledge_transfer_table.py	/^d = pd.DataFrame(table_dict)$/;"	v
+d	geneo/read_data.py	/^    d = DataSet('mnist', num_samples_from_training = 100)$/;"	v
+data	geneo/classifiers/knowledge_transfer.py	/^                    data = DataSet(dataset,$/;"	v
+data	geneo/examples/evaluate_on_augmented_data.py	/^                        data = DataSet(dataset,$/;"	v
+data	geneo/examples/evaluate_operator.py	/^data = DataSet('mnist', num_samples_from_training = 1)$/;"	v
+data	geneo/examples/representation.py	/^        data = DataSet(dataset, num_samples_from_training = None, num_classes =2)$/;"	v
+data	geneo/examples/selection.py	/^data = DataSet('mnist', num_samples_from_training = None, num_classes =2)$/;"	v
+data	geneo/examples/selection_and_sampling.py	/^data = DataSet('mnist', num_samples_from_training = None, num_classes =2)$/;"	v
+data	geneo/observer.py	/^    data = DataSet('mnist', num_samples_from_training = 10)$/;"	v
+datasets	geneo/classifiers/get_knowledge_transfer_table.py	/^    datasets = [os.path.join(subdir, f) for f in os.listdir(subdir)]$/;"	v
+datasets	geneo/examples/representation.py	/^    datasets = ["cifar10", "mnist", "fashion_mnist"]$/;"	v
+description	setup.py	/^    description=(''),$/;"	v
+diag2image	geneo/classifiers/utils.py	/^def diag2image(diag, length, inf_fill):$/;"	f
+diag2vector	geneo/classifiers/utils.py	/^def diag2vector(diag, length, inf_fill):$/;"	f
+diags2images	geneo/classifiers/utils.py	/^def diags2images(diags, length, inf_fill):$/;"	f
+diags2vectors	geneo/classifiers/utils.py	/^def diags2vectors(diags, length, inf_fill):$/;"	f
+dirname	geneo/classifiers/get_knowledge_transfer_table.py	/^dirname = os.path.dirname(__file__)$/;"	v
+entry_points	setup.py	/^    entry_points={},$/;"	v
+epochs	geneo/classifiers/knowledge_transfer.py	/^                                  epochs=train_params['epochs'],$/;"	v
+evaluate_operator_on_signal_class	geneo/observer.py	/^    def evaluate_operator_on_signal_class(operator, signals, hom_deg,$/;"	m	class:Observer
+fc_params	geneo/classifiers/knowledge_transfer.py	/^                fc_params = {'architecture':None,$/;"	v
+fig_path	geneo/classifiers/knowledge_transfer.py	/^                fig_path = fig_path + ".svg"$/;"	v
+fig_path	geneo/classifiers/knowledge_transfer.py	/^                fig_path = os.path.join(subdir, dataset, observer_path)$/;"	v
+find_value_in_cols	geneo/observer.py	/^    def find_value_in_cols(matrix, value):$/;"	m	class:Observer
+fit	geneo/classifiers/brute.py	/^    def fit(self, hom_deg=1, num_examples=10, threshold=1.5, th_per=75,$/;"	m	class:Brute
+g	geneo/examples/evaluate_operator.py	/^g = IENEO(size = 11, sigma = .1, centers = 5)$/;"	v
+g	geneo/gaussian_ieneo.py	/^    g = IENEO(size = 27, sigma = 5, centers = 5)$/;"	v	class:IENEO
+gaussian	geneo/gaussian_ieneo.py	/^    def gaussian(eval, center, sigma):$/;"	m	class:IENEO
+geneo_column_name	geneo/classifiers/get_knowledge_transfer_table.py	/^    geneo_column_name  = os.path.split(subdir)[-1]$/;"	v
+geneo_init	geneo/classifiers/knowledge_transfer.py	/^def geneo_init(shape = None, operators = None):$/;"	f
+generate	geneo/gaussian_ieneo.py	/^    def generate(self, dim = 2):$/;"	m	class:IENEO
+generate_1d	geneo/gaussian_ieneo.py	/^    def generate_1d(self, coefficients = None):$/;"	m	class:IENEO
+generate_latex_table	geneo/classifiers/utils.py	/^def generate_latex_table(array, header, concatenate_axis=None):$/;"	f
+get_diags_for_training	geneo/classifiers/utils.py	/^def get_diags_for_training(diags, inf_fill = 100, architecture = "fc"):$/;"	f
+get_distance_on_signal	geneo/gaussian_ieneo.py	/^    def get_distance_on_signal(self, other, signal, hom_deg, persistence_params,$/;"	m	class:IENEO
+get_distance_signals	geneo/observer.py	/^    def get_distance_signals(self, s1, s2, func = np.max):$/;"	m	class:Observer
+get_max_num_points	geneo/classifiers/utils.py	/^def get_max_num_points(diags):$/;"	f
+get_operators	geneo/observer.py	/^    def get_operators(self):$/;"	m	class:Observer
+get_operators_params	geneo/observer.py	/^    def get_operators_params(self):$/;"	m	class:Observer
+get_order_of_magnitude	geneo/utils.py	/^def get_order_of_magnitude(array):$/;"	f
+get_pairwise_ops_distance	geneo/observer.py	/^    def get_pairwise_ops_distance(self, signals, operators=None, func=None):$/;"	m	class:Observer
+get_pairwise_ops_distance_per_class	geneo/observer.py	/^    def get_pairwise_ops_distance_per_class(self, train_signals, indices, func):$/;"	m	class:Observer
+get_params	geneo/gaussian_ieneo.py	/^    def get_params(self):$/;"	m	class:IENEO
+get_signals_distance	geneo/gaussian_ieneo.py	/^    def get_signals_distance(self, signal1, signal2, hom_deg, persistence_params,$/;"	m	class:IENEO
+get_sym_gaussian	geneo/gaussian_ieneo.py	/^    def get_sym_gaussian(self, x, c, s):$/;"	m	class:IENEO
+histories	geneo/classifiers/get_knowledge_transfer_table.py	/^        histories = [np.load(os.path.join(dataset, f)).item() for f in os.listdir(dataset)$/;"	v
+history	geneo/classifiers/knowledge_transfer.py	/^                history = net.fit(x=data.x_train,$/;"	v
+history2	geneo/classifiers/knowledge_transfer.py	/^                history2 = net2.fit(x=data.x_train,$/;"	v
+hom_deg	geneo/examples/selection_and_sampling.py	/^                                                  hom_deg = hom_deg,$/;"	v
+hom_deg	geneo/examples/selection_and_sampling.py	/^hom_deg = 1$/;"	v
+hom_deg	geneo/observer.py	/^    def hom_deg(self):$/;"	m	class:Observer
+hom_deg	geneo/observer.py	/^    def hom_deg(self, new_hom_deg):$/;"	m	class:Observer
+im	geneo/examples/evaluate_operator.py	/^im = data.x_train[0]$/;"	v
+im_	geneo/examples/evaluate_operator.py	/^im_ = random_rotation(im)$/;"	v
+im__	geneo/examples/evaluate_operator.py	/^im__ = random_rotation(im)$/;"	v
+include_package_data	setup.py	/^    include_package_data=True,$/;"	v
+init_kernel_tensor	geneo/gaussian_ieneo.py	/^    def init_kernel_tensor(size, dim):$/;"	m	class:IENEO
+init_operators	geneo/utils.py	/^def init_operators(op_type, number=8, size=5, centers=5, sigma=.1):$/;"	f
+input_shape	geneo/classifiers/knowledge_transfer.py	/^                input_shape =  data.x_train[0].shape$/;"	v
+install_requires	setup.py	/^    install_requires=requirements,$/;"	v
+is_included	geneo/utils.py	/^def is_included(i1, i2):$/;"	f
+kernel_shape_layer1	geneo/classifiers/knowledge_transfer.py	/^                kernel_shape_layer1 = (int(kernel_size),int(kernel_size))$/;"	v
+kernel_shape_layer1	geneo/examples/evaluate_on_augmented_data.py	/^                    kernel_shape_layer1 = (int(kernel_size),int(kernel_size))$/;"	v
+kernel_size	geneo/classifiers/knowledge_transfer.py	/^                    kernel_size = observer_path.split("_")[1]$/;"	v
+kernel_size	geneo/classifiers/knowledge_transfer.py	/^                    kernel_size = observer_path.split("_")[2]$/;"	v
+kernel_size	geneo/examples/evaluate_on_augmented_data.py	/^                        kernel_size = observer_path.split("_")[1]$/;"	v
+kernel_size	geneo/examples/evaluate_on_augmented_data.py	/^                        kernel_size = observer_path.split("_")[2]$/;"	v
+license	setup.py	/^    license='GNU General Public License v3 or later (GPLv3+)',$/;"	v
+limit_to_n_classes	geneo/read_data.py	/^    def limit_to_n_classes(self, n):$/;"	m	class:DataSet
+load	geneo/observer.py	/^    def load(cls, path):$/;"	m	class:Observer
+logger	geneo/classifiers/knowledge_transfer.py	/^    logger = logger_init()$/;"	v
+logger	geneo/examples/evaluate_on_augmented_data.py	/^        logger = logger_init()$/;"	v
+logger	geneo/examples/representation.py	/^    logger = logger_init()$/;"	v
+logger_init	geneo/classifiers/knowledge_transfer.py	/^def logger_init():$/;"	f
+logger_init	geneo/examples/evaluate_on_augmented_data.py	/^def logger_init():$/;"	f
+logger_init	geneo/examples/representation.py	/^def logger_init():$/;"	f
+max_ops_per_class	geneo/examples/selection_and_sampling.py	/^                                                  max_ops_per_class = 10)$/;"	v
+model	geneo/examples/evaluate_on_augmented_data.py	/^                    model = Brute(observer, data)$/;"	v
+model	geneo/examples/representation.py	/^                model = Brute(Observer(operators), data)$/;"	v
+name	geneo/read_data.py	/^    def name(self):$/;"	m	class:DataSet
+name	geneo/read_data.py	/^    def name(self, new_name):$/;"	m	class:DataSet
+name	setup.py	/^    name='geneo',$/;"	v
+net	geneo/classifiers/knowledge_transfer.py	/^                net = build_net(arch ="cnn", params =net_params, input_shape = input_shape,$/;"	v
+net	geneo/classifiers/knowledge_transfer.py	/^                net = compile(net, train_parameters =train_params)$/;"	v
+net2	geneo/classifiers/knowledge_transfer.py	/^                net2 = build_net(arch ="cnn", params =net_params, input_shape = input_shape,$/;"	v
+net2	geneo/classifiers/knowledge_transfer.py	/^                net2 = compile(net2, train_parameters =train_params)$/;"	v
+net_params	geneo/classifiers/knowledge_transfer.py	/^                net_params = [cnn_params, fc_params]$/;"	v
+num_classes	geneo/classifiers/knowledge_transfer.py	/^                                   num_classes = class_num)$/;"	v
+num_classes	geneo/classifiers/knowledge_transfer.py	/^                                num_classes =len(data.classes))$/;"	v
+num_classes	geneo/examples/evaluate_on_augmented_data.py	/^                                       num_classes = class_num)$/;"	v
+num_examples	geneo/examples/evaluate_on_augmented_data.py	/^                        num_examples = 20$/;"	v
+num_examples	geneo/examples/representation.py	/^        num_examples = 20$/;"	v
+num_examples	geneo/examples/selection.py	/^num_examples =4$/;"	v
+num_examples	geneo/examples/selection_and_sampling.py	/^num_examples =4$/;"	v
+num_of_operators	geneo/observer.py	/^    def num_of_operators(self):$/;"	m	class:Observer
+num_samples_from_training	geneo/classifiers/knowledge_transfer.py	/^                                   num_samples_from_training = None,$/;"	v
+num_samples_from_training	geneo/examples/evaluate_on_augmented_data.py	/^                                       num_samples_from_training = None,$/;"	v
+num_train_ex	geneo/examples/representation.py	/^                num_train_ex = 10$/;"	v
+num_val_ex	geneo/examples/evaluate_on_augmented_data.py	/^                    num_val_ex = 10$/;"	v
+num_val_ex	geneo/examples/representation.py	/^                num_val_ex = 10$/;"	v
+number	geneo/examples/selection_and_sampling.py	/^                          number =20,$/;"	v
+number_of_parameters	geneo/gaussian_ieneo.py	/^    def number_of_parameters(self):$/;"	m	class:IENEO
+observer	geneo/classifiers/knowledge_transfer.py	/^                observer = Observer.load(os.path.join(subdir, dataset,observer_path))$/;"	v
+observer	geneo/examples/evaluate_on_augmented_data.py	/^                    observer = Observer.load(os.path.join(subdir, dataset,observer_path))$/;"	v
+observer	geneo/examples/selection.py	/^observer = Observer(operators)$/;"	v
+observer	geneo/examples/selection_and_sampling.py	/^observer = Observer(operators)$/;"	v
+observer	geneo/observer.py	/^    observer = Observer(ops)$/;"	v
+one_hot2dense	geneo/read_data.py	/^    def one_hot2dense(array):$/;"	m	class:DataSet
+operators	geneo/classifiers/knowledge_transfer.py	/^                                    operators = observer.get_operators())$/;"	v
+operators	geneo/examples/representation.py	/^                operators = init_operators(GIENEO, number=750, size=size, sigma=.1,$/;"	v
+operators	geneo/examples/selection.py	/^operators = init_operators(GIENEO, number =5, size = 11, sigma = .1, centers = 5)$/;"	v
+operators	geneo/examples/selection_and_sampling.py	/^operators = init_operators(GIENEO,$/;"	v
+ops	geneo/observer.py	/^    ops = init_operators(IENEO)$/;"	v
+packages	setup.py	/^    packages=find_packages(exclude=EXCLUDE_FROM_PACKAGES),$/;"	v
+parameters	geneo/data_augmentation/isometries.py	/^parameters = [ROTATION_PARAMS, TRANSLATION_PARAMS, {}]$/;"	v
+path	geneo/classifiers/knowledge_transfer.py	/^    path = '.\/saved_observers'$/;"	v
+path	geneo/examples/evaluate_on_augmented_data.py	/^                    path = dataset + "_" +str(kernel_size) + "_" + str(class_num) +"_aug_test.npy"$/;"	v
+path	geneo/examples/evaluate_on_augmented_data.py	/^                    path = dataset + "_" +str(kernel_size) + "_" + str(class_num) +"_augmented_test.npy"$/;"	v
+path	geneo/examples/evaluate_on_augmented_data.py	/^        path = '..\/classifiers\/saved_observers'$/;"	v
+path	geneo/examples/representation.py	/^                path = dataset + "_" +str(size) + ".npy"$/;"	v
+persistence_params	geneo/observer.py	/^    def persistence_params(self):$/;"	m	class:Observer
+persistence_params	geneo/observer.py	/^    def persistence_params(self, new_params):$/;"	m	class:Observer
+plot_diagram	geneo/utils.py	/^def plot_diagram(dgm, ax = None, show = False, labels = False):$/;"	f
+plot_image	geneo/read_data.py	/^    def plot_image(self, image = None, index = None, cmap = 'gray'):$/;"	m	class:DataSet
+plot_net_history	geneo/classifiers/utils.py	/^def plot_net_history(history, axs=None, show = False, save_to=None,$/;"	f
+plot_validation_dendrogram	geneo/classifiers/brute.py	/^    def plot_validation_dendrogram(self, method = "single", num_ex_per_class = 0):$/;"	m	class:Brute
+plot_validation_distance_matrix	geneo/classifiers/brute.py	/^    def plot_validation_distance_matrix(self):$/;"	m	class:Brute
+prepr_params	geneo/classifiers/knowledge_transfer.py	/^    prepr_params = {'bw': False, 'threshold': .66, 'reshape': True,$/;"	v
+prepr_params	geneo/examples/evaluate_on_augmented_data.py	/^        prepr_params = {'bw': False, 'threshold': .66, 'reshape': True,$/;"	v
+prepr_params	geneo/examples/representation.py	/^    prepr_params = {'bw': False, 'threshold': .66, 'reshape': True,$/;"	v
+preprocess	geneo/read_data.py	/^    def preprocess(self, func = None, params_dict = None):$/;"	m	class:DataSet
+preprocess_	geneo/read_data.py	/^    def preprocess_(img,$/;"	m	class:DataSet
+preprocessing_dict	geneo/examples/evaluate_operator.py	/^preprocessing_dict = {'bw': True, 'threshold': .66,$/;"	v
+preprocessing_dict	geneo/examples/selection.py	/^preprocessing_dict = {'bw': False, 'threshold': .66, 'reshape': True,$/;"	v
+preprocessing_dict	geneo/examples/selection_and_sampling.py	/^preprocessing_dict = {'bw': False, 'threshold': .66,$/;"	v
+random_rotation	geneo/data_augmentation/data_augmentation.py	/^def random_rotation(image, range_theta = [15, 45]):$/;"	f
+random_rotation	geneo/data_augmentation/isometries.py	/^def random_rotation(image, range_theta = [15, 45]):$/;"	f
+random_translation	geneo/data_augmentation/data_augmentation.py	/^def random_translation(image, rangex = [0, 2], rangey = [0, 2], scale = [1,1]):$/;"	f
+random_translation	geneo/data_augmentation/isometries.py	/^def random_translation(image, rangex = [0, 2], rangey = [0, 2], scale = [1,1]):$/;"	f
+reflect_random_axis	geneo/data_augmentation/data_augmentation.py	/^def reflect_random_axis(image):$/;"	f
+reflect_random_axis	geneo/data_augmentation/isometries.py	/^def reflect_random_axis(image):$/;"	f
+rev_class_map	geneo/examples/evaluate_on_augmented_data.py	/^                    rev_class_map = {data.class_map[k]: k for k in data.class_map}$/;"	v
+rev_class_map	geneo/examples/representation.py	/^                rev_class_map = {data.class_map[k]: k for k in data.class_map}$/;"	v
+sample	geneo/classifiers/brute.py	/^    def sample(self):$/;"	m	class:Brute
+sample_operators	geneo/observer.py	/^    def sample_operators(self, train_signals, func=np.max, th_per = 75):$/;"	m	class:Observer
+save	geneo/observer.py	/^    def save(self, path):$/;"	m	class:Observer
+scale	geneo/gaussian_ieneo.py	/^    def scale(array, target_range = (-1,1)):$/;"	m	class:IENEO
+select	geneo/classifiers/brute.py	/^    def select(self):$/;"	m	class:Brute
+select_filters_on_signal_set	geneo/observer.py	/^    def select_filters_on_signal_set(self, train_signals, hom_deg = 1,$/;"	m	class:Observer
+select_n_examples_per_class	geneo/read_data.py	/^    def select_n_examples_per_class(self, num_examples):$/;"	m	class:DataSet
+select_per_class	geneo/observer.py	/^    def select_per_class(self, signal_class, hom_deg,$/;"	m	class:Observer
+shuffle	geneo/classifiers/knowledge_transfer.py	/^                                  shuffle=train_params['shuffle'])$/;"	v
+sigma	geneo/examples/selection_and_sampling.py	/^                          sigma = .1,$/;"	v
+sigma	geneo/gaussian_ieneo.py	/^    def sigma(self):$/;"	m	class:IENEO
+sigma	geneo/gaussian_ieneo.py	/^    def sigma(self, new_sigma):$/;"	m	class:IENEO
+size	geneo/examples/selection_and_sampling.py	/^                          size = 11,$/;"	v
+sizes	geneo/examples/representation.py	/^        sizes = [7,11,21]$/;"	v
+subdirs	geneo/classifiers/get_knowledge_transfer_table.py	/^subdirs = [os.path.join(path, f) for f in os.listdir(path)]$/;"	v
+subdirs	geneo/classifiers/knowledge_transfer.py	/^    subdirs = [os.path.join(path, f) for f in os.listdir(path)]$/;"	v
+subdirs	geneo/examples/evaluate_on_augmented_data.py	/^        subdirs = [os.path.join(path, f) for f in os.listdir(path)]$/;"	v
+table_dict	geneo/classifiers/get_knowledge_transfer_table.py	/^table_dict = {'dataset': []}$/;"	v
+test	geneo/examples/evaluate_on_augmented_data.py	/^                    test = np.concatenate([model.data.sampled_val_imgs[c][:num_val_ex]$/;"	v
+test	geneo/examples/representation.py	/^                test = np.concatenate([model.data.sampled_val_imgs[c][:num_val_ex]$/;"	v
+test_labels	geneo/examples/evaluate_on_augmented_data.py	/^                    test_labels = np.concatenate([np.ones(num_val_ex) * rev_class_map[c]$/;"	v
+test_labels	geneo/examples/representation.py	/^                test_labels = np.concatenate([np.ones(num_val_ex) * rev_class_map[c]$/;"	v
+threshold	geneo/examples/selection_and_sampling.py	/^                                                  threshold =1.5,$/;"	v
+train	geneo/examples/representation.py	/^                train = np.concatenate([model.data.sampled_imgs[c][:num_train_ex]$/;"	v
+train_labels	geneo/examples/representation.py	/^                train_labels = np.concatenate([np.ones(num_train_ex) * rev_class_map[c]$/;"	v
+train_params	geneo/classifiers/knowledge_transfer.py	/^                train_params = {$/;"	v
+transforms	geneo/data_augmentation/isometries.py	/^transforms = [random_rotation, random_translation, reflect_random_axis]$/;"	v
+true_k_over_n_times	geneo/data_augmentation/data_augmentation.py	/^def true_k_over_n_times(k = 1, n = 10):$/;"	f
+uniform_initializer	geneo/gaussian_ieneo.py	/^    def uniform_initializer(num_coeffs, target_range = (-1,1)):$/;"	m	class:IENEO
+update_labels	geneo/read_data.py	/^    def update_labels(self):$/;"	m	class:DataSet
+update_parameters	geneo/gaussian_ieneo.py	/^    def update_parameters(self, coefficients, centers, sigma):$/;"	m	class:IENEO
+url	setup.py	/^    url='',$/;"	v
+validate	geneo/classifiers/brute.py	/^    def validate(self, validation_signals, validation_labels, func=np.max):$/;"	m	class:Brute
+validation_split	geneo/classifiers/knowledge_transfer.py	/^                                  validation_split=train_params['validation_split'],$/;"	v
+version	setup.py	/^    version='0.0.0-prealpha',$/;"	v
+visualise_conv	geneo/gaussian_ieneo.py	/^    def visualise_conv(self, image, convolve_params = None,$/;"	m	class:IENEO
+y	geneo/classifiers/knowledge_transfer.py	/^                                  y=data.y_train,$/;"	v
+zip_safe	setup.py	/^    zip_safe=False,$/;"	v
